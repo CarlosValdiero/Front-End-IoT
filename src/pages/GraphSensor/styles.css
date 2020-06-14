@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color: #ffffff;
+}
+
+.container-graph-sensor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.border-graph{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: mediumslateblue;
+}
+
+.graph{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.button-back{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button-back p{
+    margin-left: 20px;
+}
