@@ -40,7 +40,7 @@ const GraphSensor = () =>{
                 </div>
                     <Chart
                         width={'100%'}
-                        height={800}
+                        height={500}
                         chartType="Line"
                         loader={<div>Loading Chart</div>}
                         data={[
